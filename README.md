@@ -1,2 +1,2 @@
 # Snake-game-controlled-with-the-index-finger.
-Tôi sử dụng thư viện mediapipe và cv2 
+I'm using the MediaPipe and CV2 libraries. I've also sent you the handlandmark.task file to define the hand.
