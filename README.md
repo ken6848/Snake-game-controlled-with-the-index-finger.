@@ -1,4 +1,3 @@
-Markdown
 # 🐍 Hand-Controlled Snake Game with MediaPipe & Pygame
 
 Welcome to the **Hand-Controlled Snake Game**! 🎮 This is a modern twist on the classic retro Snake game. Instead of bashing your keyboard arrows, you control the snake's direction in real-time by **moving your index finger** captured by your webcam! 
@@ -43,10 +42,13 @@ Make sure you have Python 3.8+ installed. You can install all the required modul
 
 ```bash
 pip install -r requirements.txt
+```
 Or install manually:
 
 ```bash
 pip install pygame opencv-python mediapipe
+```
+
 🧠 Model Setup
 This game requires MediaPipe's Hand Landmarker model.
 
@@ -59,7 +61,7 @@ Simply execute the Python script to start the action:
 
 ```bash
 python snake_hand_control.py
-
+```
 🛠️ Project Structure & How it Works
 Pygame Engine: Drives the 60 FPS update loop, draws the snake grid, manages game states, and checks for collisions.
 
